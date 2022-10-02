@@ -98,9 +98,10 @@ const App = () => {
         </div>
 
         <div className="review">
-          {status == Status.WIN && <h3 className="correct">Thats correct!</h3>}
-          {status == Status.LOSE && <h3 className="fail">Thats a fail, try again!</h3>}
+          {status === Status.WIN && <h3 className="correct">Thats correct!</h3>}
+          {status === Status.LOSE && <h3 className="fail">Thats a fail, try again!</h3>}
         </div>
+        <p className="author">Created by: <strong><a href="https://github.com/DeeKaPPy">Kacper DeeKaPPy Horbacz</a></strong></p>
     </div>)
 };
 
