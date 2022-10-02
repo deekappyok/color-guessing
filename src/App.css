@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #141313;
+}
+
+.app {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.heading {
+  color: #fff;
+}
+
+.colorBox {
+  margin-top: 3em;
+  width: 350px;
+  height: 350px;
+  border-radius: 1em;
+
+  background-color: aqua;
+}
+
+
+.button {
+  margin-top: 1em;
+  color: #fff;
+  background-color: #3b3939;
+  font-size: 1.5em;
+  padding: 15px;
+  border-radius: .8em;
+  
+  border: none;
+  outline: none;
+}
+
+button + button {
+  margin-left: 0.7em;
+}
+
+.review {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 1.5em;
+  padding: 15px;
+}
+
+.correct {
+  color: green;
+}
+
+.fail {
+  color: red;
+}
+
+.score {
+  margin-top: 1em;
+  font-size: 1.5em;
+  color: #fff;
+}
